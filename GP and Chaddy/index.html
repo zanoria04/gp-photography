@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<title>Philip & Chaddy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="main.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+  <img class="w3-image" src="seven.jpg" alt="Me" width="1200" height="auto">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-black w3-center">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">GLENN PHILIP</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">GLENN PHILIP</h5>
+    <h3 class="w3-hide-medium w3-hide-small">PHOTOGRAPHER</h3>
+  </div>
+  
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar w3-black w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+    <a href="#" class="w3-bar-item w3-button">&nbsp; &nbsp; &nbsp;Home&nbsp; &nbsp; &nbsp;</a>
+    <a href="#photos" class="w3-bar-item w3-button">&nbsp; &nbsp; &nbsp;Photos&nbsp; &nbsp; &nbsp;</a>
+    <a href="#contact" class="w3-bar-item w3-button">&nbsp; &nbsp; &nbsp;Contact&nbsp; &nbsp; &nbsp;</a>
+  </div>
+</header>
+
+<!-- Navbar on small screens -->
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+    <div class="w3-bar w3-black">
+      <a href="#" class="w3-bar-item w3-button">Home</a>
+      <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+    </div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+    <br>
+  <h1><b>About</b></h1>
+  <p><b>"It would be powerful if you fell in love with yourself so deeply that you would do just about anything if you knew it would make you happy. 
+  <br>This is precisely how much life loves you and wants you to nurture yourself. The deeper you love yourself, the more the universe will affirm your worth. 
+  <br>Then you can enjoy a lifelong love affair that brings you the richest fullfilment from inside out."</b></p>
+  <br>
+  <br>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()" id="photos">Photo Grid </button></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="nature_eight.jpg" style="width:100%">
+    <img src="nature_four.jpg" style="width:100%">
+    <img src="nature_five.jpg" style="width:100%">
+    <img src="nature_three.jpg" style="width:100%">
+    <img src="nature_two.jpg" style="width:100%">
+    <img src="nature_seven.jpg" style="width:100%">
+    <img src="nature_six.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="image_one.jpg" style="width:100%">
+    <img src="img_fifteen.jpg" style="width:100%">
+    <img src="img_ten.jpg" style="width:100%">
+    <img src="img_twenty.jpg" style="width:100%">
+    <img src="seventeen.jpg" style="width:100%">
+    <img src="five.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="ten.jpg" style="width:100%">
+    <img src="twenty.jpg" style="width:100%">
+    <img src="ocean_eight.jpg" style="width:100%">
+    <img src="ocean_three.jpg" style="width:100%">
+    <img src="ocean_one.jpg" style="width:100%">
+    <img src="ocean_four.jpg" style="width:100%">
+  </div>
+</div>
+
+
+<!-- Contact -->
+<div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+  <h3 class="w3-center">Contact</h3>
+  <hr>
+
+  <form action="/action_page.php" target="_blank">
+    <div class="w3-section">
+      <label>Name</label>
+      <input class="w3-input w3-border" type="text" required name="Name">
+    </div>
+    <div class="w3-section">
+      <label>Email</label>
+      <input class="w3-input w3-border" type="text" required name="Email">
+    </div>
+    <div class="w3-section">
+      <label>Message</label>
+      <input class="w3-input w3-border" required name="Message">
+    </div>
+    <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+  </form>
+
+</div>
+
+<!-- End Page Content -->
+</div>
+
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <p class="w3-medium"> Follow me </p>
+
+  <a href="#" class="w3-bar-item w3-button"><span class="w3-button w3-xxlarge w3-white w3-right"><i class="fa fa-angle-double-up"></i></span></a>
+
+</footer>
+
+</body>
+</html>
